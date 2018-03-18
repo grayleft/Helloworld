@@ -1,0 +1,14 @@
+git init
+git add
+git commit -m "XXXX"
+git status
+
+ssh-keygen -t rsa -C "Email"
+id_rsa.pub
+
+git remote add origin https://github.com/username/Project
+
+git pull --rebase origin master
+git push -u origin master
+git push origin master
+
